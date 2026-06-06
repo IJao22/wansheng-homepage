@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.playwright-cli/
+analysis_tmp/
+output/
+outputs/
+video-preview/
+*.log
+

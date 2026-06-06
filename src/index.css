@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #181313;
+  background: #fefef2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: #fefef2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.poster-grid {
+  background-image:
+    linear-gradient(to right, #181313 1px, transparent 1px),
+    linear-gradient(to bottom, #181313 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+::selection {
+  background: #a9442f;
+  color: #fefef2;
+}
+
+@media (max-width: 767px) {
+  html {
+    scroll-padding-top: 68px;
+  }
+}
