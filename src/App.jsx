@@ -21,11 +21,11 @@ const navItems = [
 const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
 
 const assets = {
-  hero: asset("assets/brand-kv-poster.png"),
-  logo: asset("assets/wansheng-logo-primary.png"),
-  grape: asset("assets/rain-night-grape-front.png"),
-  oolong: asset("assets/evening-breeze-oolong-front.png"),
-  peach: asset("assets/rain-alley-peach-front.png"),
+  hero: asset("assets/brand-kv-poster-web.webp"),
+  logo: asset("assets/wansheng-logo-primary-web.webp"),
+  grape: asset("assets/rain-night-grape-front-web.webp"),
+  oolong: asset("assets/evening-breeze-oolong-front-web.webp"),
+  peach: asset("assets/rain-alley-peach-front-web.webp"),
 };
 
 const reveal = {
