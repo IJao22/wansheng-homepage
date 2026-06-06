@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" role="img" aria-labelledby="title desc">
+  <title id="title">雨夜葡萄正视罐身</title>
+  <desc id="desc">晚声雨夜葡萄 250ml 气泡饮正视产品图</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="44%" r="64%">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.72" stop-color="#f3f1ef"/>
+      <stop offset="1" stop-color="#ded9d3"/>
+    </radialGradient>
+    <linearGradient id="can" x1="0" x2="1">
+      <stop offset="0" stop-color="#1f1631"/>
+      <stop offset="0.22" stop-color="#3b254f"/>
+      <stop offset="0.5" stop-color="#151023"/>
+      <stop offset="0.77" stop-color="#4b2c66"/>
+      <stop offset="1" stop-color="#20162d"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" x2="1">
+      <stop offset="0" stop-color="#7b7f86"/>
+      <stop offset="0.5" stop-color="#f1f2f0"/>
+      <stop offset="1" stop-color="#737780"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-30%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="44" stdDeviation="42" flood-color="#181313" flood-opacity="0.22"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  <rect width="2048" height="2048" fill="url(#bg)"/>
+  <ellipse cx="1024" cy="1692" rx="405" ry="84" fill="#181313" opacity="0.18" filter="url(#soft)"/>
+  <g filter="url(#shadow)">
+    <path d="M712 416C712 348 766 300 1024 300s312 48 312 116v1216c0 80-70 124-312 124s-312-44-312-124V416Z" fill="url(#can)"/>
+    <ellipse cx="1024" cy="416" rx="312" ry="96" fill="url(#metal)"/>
+    <ellipse cx="1024" cy="414" rx="242" ry="54" fill="#d7d8d7"/>
+    <ellipse cx="1024" cy="410" rx="150" ry="26" fill="#8b8d91" opacity="0.44"/>
+    <path d="M942 374c28-22 130-20 156 0 18 14 2 49-78 50-76 0-94-35-78-50Z" fill="#6f737c"/>
+    <rect x="955" y="356" width="96" height="28" rx="12" fill="#d8d9d8"/>
+    <path d="M808 468c58 78 93 165 105 262 12 100 79 146 198 142 93-3 165 25 216 83v180c-70-64-154-93-252-86-134 10-220-43-259-158-36-105-70-167-118-203V510c40 6 76 24 110 58Z" fill="#8064a1" opacity="0.42"/>
+    <path d="M734 446h112c-54 298-55 818 0 1128H734V446Z" fill="url(#shine)" opacity="0.55"/>
+    <path d="M1184 468h76c-42 326-39 801 8 1132h-82c-36-328-37-817-2-1132Z" fill="#fff" opacity="0.12"/>
+    <g fill="none" stroke="#d5b2ff" stroke-width="7" opacity="0.72">
+      <path d="M768 975c72-80 144-80 216 0s144 80 216 0"/>
+      <path d="M768 1018c72-80 144-80 216 0s144 80 216 0"/>
+      <path d="M768 1061c72-80 144-80 216 0s144 80 216 0"/>
+    </g>
+    <g font-family="'Microsoft YaHei', 'Noto Sans CJK SC', Arial, sans-serif" text-anchor="middle">
+      <text x="1024" y="680" fill="#e9dde9" font-size="118" font-weight="500" letter-spacing="10">晚声</text>
+      <text x="1024" y="748" fill="#c7b9d1" font-size="44" font-weight="600" letter-spacing="9">WANSHENG</text>
+      <text x="1024" y="1196" fill="#f3eaf6" font-size="78" font-weight="600" letter-spacing="8">雨夜葡萄</text>
+      <text x="1024" y="1260" fill="#c9bed0" font-size="30" font-weight="500" letter-spacing="3">Rain Night Grape</text>
+      <text x="1024" y="1524" fill="#d7ccd9" font-size="34" font-weight="500" letter-spacing="2">250ml e / 气泡饮</text>
+    </g>
+    <ellipse cx="1024" cy="1631" rx="312" ry="84" fill="#21162e" opacity="0.48"/>
+    <path d="M716 1608c45 55 119 78 308 78s263-23 308-78v32c0 73-66 116-308 116s-308-43-308-116v-32Z" fill="#15101f" opacity="0.5"/>
+  </g>
+</svg>
